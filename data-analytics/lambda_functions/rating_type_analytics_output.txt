@@ -1,0 +1,50 @@
+
+no body
+{
+  "statusCode": 200,
+  "headers": {
+    "Content-Type": "application/json",
+    "Access-Control-Allow-Origin": "*"
+  },
+  "body": "{\"7D\": {\"rating_distribution\": [{\"rating\": 3, \"count\": 1}, {\"rating\": 4, \"count\": 1}, {\"rating\": 5, \"count\": 1}], \"organization_mix_trend\": {\"non_profit\": [{\"period\": \"2026-09-25\", \"count\": 4}], \"for_profit\": [{\"period\": \"2026-09-28\", \"count\": 3}, {\"period\": \"2026-09-29\", \"count\": 4}]}}, \"30D\": {\"rating_distribution\": [{\"rating\": 3, \"count\": 1}, {\"rating\": 4, \"count\": 2}, {\"rating\": 5, \"count\": 1}], \"organization_mix_trend\": {\"non_profit\": [{\"period\": \"2026-09-25\", \"count\": 4}], \"for_profit\": [{\"period\": \"2026-09-01\", \"count\": 2}, {\"period\": \"2026-09-28\", \"count\": 3}, {\"period\": \"2026-09-29\", \"count\": 4}]}}, \"1Y\": {\"rating_distribution\": [{\"rating\": 2, \"count\": 1}, {\"rating\": 3, \"count\": 2}, {\"rating\": 4, \"count\": 2}, {\"rating\": 5, \"count\": 1}], \"organization_mix_trend\": {\"non_profit\": [{\"period\": \"2025-10\", \"count\": 2}, {\"period\": \"2026-03\", \"count\": 3}, {\"period\": \"2026-09\", \"count\": 4}], \"for_profit\": [{\"period\": \"2026-09\", \"count\": 4}]}}, \"All\": {\"rating_distribution\": [{\"rating\": 1, \"count\": 1}, {\"rating\": 2, \"count\": 1}, {\"rating\": 3, \"count\": 2}, {\"rating\": 4, \"count\": 3}, {\"rating\": 5, \"count\": 1}], \"organization_mix_trend\": {\"non_profit\": [{\"period\": \"2024-01\", \"count\": 1}, {\"period\": \"2025-10\", \"count\": 2}, {\"period\": \"2026-03\", \"count\": 3}, {\"period\": \"2026-09\", \"count\": 4}], \"for_profit\": [{\"period\": \"2025-03\", \"count\": 1}, {\"period\": \"2026-09\", \"count\": 4}]}}, \"Custom\": {\"rating_distribution\": [], \"organization_mix_trend\": {\"non_profit\": [], \"for_profit\": []}}}"
+}
+
+country
+{
+  "statusCode": 200,
+  "headers": {
+    "Content-Type": "application/json",
+    "Access-Control-Allow-Origin": "*"
+  },
+  "body": "{\"7D\": {\"rating_distribution\": [{\"rating\": 4, \"count\": 1}, {\"rating\": 5, \"count\": 1}], \"organization_mix_trend\": {\"non_profit\": [{\"period\": \"2026-09-25\", \"count\": 4}], \"for_profit\": [{\"period\": \"2026-09-29\", \"count\": 3}]}}, \"30D\": {\"rating_distribution\": [{\"rating\": 4, \"count\": 2}, {\"rating\": 5, \"count\": 1}], \"organization_mix_trend\": {\"non_profit\": [{\"period\": \"2026-09-25\", \"count\": 4}], \"for_profit\": [{\"period\": \"2026-09-01\", \"count\": 2}, {\"period\": \"2026-09-29\", \"count\": 3}]}}, \"1Y\": {\"rating_distribution\": [{\"rating\": 2, \"count\": 1}, {\"rating\": 3, \"count\": 1}, {\"rating\": 4, \"count\": 2}, {\"rating\": 5, \"count\": 1}], \"organization_mix_trend\": {\"non_profit\": [{\"period\": \"2025-10\", \"count\": 2}, {\"period\": \"2026-03\", \"count\": 3}, {\"period\": \"2026-09\", \"count\": 4}], \"for_profit\": [{\"period\": \"2026-09\", \"count\": 3}]}}, \"All\": {\"rating_distribution\": [{\"rating\": 1, \"count\": 1}, {\"rating\": 2, \"count\": 1}, {\"rating\": 3, \"count\": 1}, {\"rating\": 4, \"count\": 3}, {\"rating\": 5, \"count\": 1}], \"organization_mix_trend\": {\"non_profit\": [{\"period\": \"2024-01\", \"count\": 1}, {\"period\": \"2025-10\", \"count\": 2}, {\"period\": \"2026-03\", \"count\": 3}, {\"period\": \"2026-09\", \"count\": 4}], \"for_profit\": [{\"period\": \"2025-03\", \"count\": 1}, {\"period\": \"2026-09\", \"count\": 3}]}}, \"Custom\": {\"rating_distribution\": [], \"organization_mix_trend\": {\"non_profit\": [], \"for_profit\": []}}}"
+}
+
+rating custom
+{
+  "statusCode": 200,
+  "headers": {
+    "Content-Type": "application/json",
+    "Access-Control-Allow-Origin": "*"
+  },
+  "body": "{\"Custom\": {\"rating_distribution\": [{\"rating\": 3, \"count\": 1}], \"organization_mix_trend\": {\"non_profit\": [], \"for_profit\": []}}}"
+}
+
+type custom
+{
+  "statusCode": 200,
+  "headers": {
+    "Content-Type": "application/json",
+    "Access-Control-Allow-Origin": "*"
+  },
+  "body": "{\"Custom\": {\"rating_distribution\": [], \"organization_mix_trend\": {\"non_profit\": [{\"period\": \"2025-10-01\", \"count\": 2}], \"for_profit\": [{\"period\": \"2025-03-10\", \"count\": 1}]}}}"
+}
+
+both custom
+{
+  "statusCode": 200,
+  "headers": {
+    "Content-Type": "application/json",
+    "Access-Control-Allow-Origin": "*"
+  },
+  "body": "{\"Custom\": {\"rating_distribution\": [{\"rating\": 3, \"count\": 1}], \"organization_mix_trend\": {\"non_profit\": [{\"period\": \"2025-10-01\", \"count\": 2}], \"for_profit\": [{\"period\": \"2025-03-10\", \"count\": 1}]}}}"
+}
